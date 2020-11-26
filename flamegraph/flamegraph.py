@@ -147,6 +147,7 @@ def main():
     start_time = time.perf_counter()
   else:
     start_time = time.clock()
+  thread.start()
 
   try:
     # exec docs say globals and locals should be same dictionary else treated as class context
